@@ -1,13 +1,11 @@
-package mapping;
+package mapping.onetoone;
 
-import mapping.onetoone.Employee;
-import mapping.onetoone.Laptop;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-public class MappingMain {
+public class OneToOneMain {
 
     public static void main(String[] args) {
         //one to one mapping
